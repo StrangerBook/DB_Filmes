@@ -16,4 +16,9 @@ escolha a ultima versão e siga em frente.
 Para o VSCode bas entrar no site no próprio e procurar pelos dowloads.
 
 Com isso instalado abra a barra de pesquisa do windows e pesquise por "MySQL 8.0 Comand Line Client" ao abrir, coloque a senha que você anotou na instalação. Abra a barra de pesquisa novamente e pesquise por "MySQL Workbench 8.0 CE" ao abrir clique no "+" na frente
-de "MySQL Connections" escolha um nome para a conexão e clique "ok", depois clique na conexão que você criou, dentro do bloco de texto no meio do aplicativo coloque os comandos dentro do arquivo ""
+de "MySQL Connections" escolha um nome para a conexão e clique "ok", depois clique na conexão que você criou, dentro do bloco de texto no meio do aplicativo coloque os comandos dentro do arquivo "BancoDados.sql" e clique no botão com apenas um raio.
+Dentro do "VSCode" abra um terminal e digite "pip install mysql-connector-python" e envie.
+
+Após isso, nas primeiras linhas de código Python, mude os numeros dentro as aspas da linha que contém ' password ="123456" ' para a senha que você anotou.
+
+Enfim o código está pronto para uso e totalmente integrado com o banco de dados!
